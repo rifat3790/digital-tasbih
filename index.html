@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tashbi</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="container mx-auto"><h1 class="font-extrabold lg:text-5xl text-3xl text-center items-center lg:mt-20 mt-5 mb-4 md:text-5xl text-lime-500 "><span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Digital Tasbih</span></h1></header>
+
+    <main class="container mx-auto">
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-x-4 lg:mt-12">
+            <!-- Subhan Allah starts -->
+            <div>
+                <div class="card bg-base-100 shadow-xl">
+                    <div class="card-body">
+                      <h2 class="card-title flex justify-center">Subhan Allah</h2>
+                      <p id="item-1-display" class="text-center text-3xl">0</p>
+                      <div class="card-actions justify-center">
+                        <button id="item-1-increment" class="btn btn-primary">Increment</button>
+                        <button id="item-1-decrement" class="btn btn-secondary">Decrement</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <!-- Alhamdulillah starts -->
+            <div>
+                <div class="card bg-base-100 shadow-xl">
+                    <div class="card-body">
+                      <h2 class="card-title flex justify-center">Alhamdulillah</h2>
+                      <p id="item-2-display" class="text-center text-3xl">0</p>
+                      <div class="card-actions justify-center">
+                        <button id="item-2-increment" class="btn btn-primary">Increment</button>
+                        <button id="item-2-decrement" class="btn btn-secondary">Decrement</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <!-- Allahuakber starts -->
+
+            <div>
+                <div class="card bg-base-100 shadow-xl">
+                    <div class="card-body">
+                      <h2 class="card-title flex justify-center">Allahuakber</h2>
+                      <p id="item-3-display" class="text-center text-3xl">0</p>
+                      <div class="card-actions justify-center">
+                        <button id="item-3-increment" class="btn btn-primary">Increment</button>
+                        <button id="item-3-decrement" class="btn btn-secondary">Decrement</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+        </section>
+
+        <section class="flex justify-center lg:mt-10 mt-5">
+            <button id="reset-btn" class="btn btn-secondary">Reset all Tasbih</button>
+        </section>
+    </main>
+
+    <script src="javaScript/work.js"></script>
+</body>
+</html>
