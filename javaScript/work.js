@@ -45,7 +45,7 @@ item1decrement.addEventListener('click', function(){
 // Alhamdulillah increment 
 
 item2Increment.addEventListener('click', function(){
-    if(AlhamdulillahInitialValue === 3){
+    if(AlhamdulillahInitialValue === 33){
         return alert("Alhamdulillah complete. Please fillup another one")
     }
 
@@ -70,4 +70,19 @@ item3Increment.addEventListener('click', function(){
 
     AllahuakberInitialValue++;
     item3Display.innerText = AllahuakberInitialValue;
+})
+
+// Allahuakber decrement
+item3decrement.addEventListener('click', function(){
+    if(AllahuakberInitialValue === 0){
+        return alert("You can not added nagetive value")
+    }
+    AllahuakberInitialValue--;
+    item3Display.innerText = AllahuakberInitialValue;
+})
+
+reset.addEventListener('click', function(){
+    item1Display.innerText = 0;
+    item2Display.innerText = 0;
+    item3Display.innerText = 0;
 })
