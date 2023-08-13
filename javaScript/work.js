@@ -62,4 +62,12 @@ item2decrement.addEventListener('click', function(){
     item2Display.innerText = AlhamdulillahInitialValue;
 })
 
+// Allhuakber increment 
+item3Increment.addEventListener('click', function(){
+    if(AllahuakberInitialValue === 33){
+        return alert("Allahuakber complete. Please fillup another one");
+    }
 
+    AllahuakberInitialValue++;
+    item3Display.innerText = AllahuakberInitialValue;
+})
