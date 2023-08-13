@@ -18,3 +18,6 @@ const reset = document.getElementById('reset-btn');
 
 
 // initial value set
+let subhanAllahInitialValue = 0;
+let AlhamdulillahInitialValue = 0;
+let AllahuakberInitialValue = 0;
