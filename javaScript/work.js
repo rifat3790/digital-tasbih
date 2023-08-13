@@ -52,3 +52,14 @@ item2Increment.addEventListener('click', function(){
     AlhamdulillahInitialValue++;
     item2Display.innerText = AlhamdulillahInitialValue;
 })
+
+// Alhamdulillah decrement 
+item2decrement.addEventListener('click', function(){
+    if(AlhamdulillahInitialValue === 0){
+        return alert("You can not added nagetive value")
+    }
+    AlhamdulillahInitialValue--;
+    item2Display.innerText = AlhamdulillahInitialValue;
+})
+
+
