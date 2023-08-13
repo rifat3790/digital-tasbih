@@ -42,4 +42,13 @@ item1decrement.addEventListener('click', function(){
 
 })
 
+// Alhamdulillah increment 
 
+item2Increment.addEventListener('click', function(){
+    if(AlhamdulillahInitialValue === 3){
+        return alert("Alhamdulillah complete. Please fillup another one")
+    }
+
+    AlhamdulillahInitialValue++;
+    item2Display.innerText = AlhamdulillahInitialValue;
+})
