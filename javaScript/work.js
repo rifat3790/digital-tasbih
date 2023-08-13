@@ -21,3 +21,12 @@ const reset = document.getElementById('reset-btn');
 let subhanAllahInitialValue = 0;
 let AlhamdulillahInitialValue = 0;
 let AllahuakberInitialValue = 0;
+
+// subhanAllah increment 
+item1Increment.addEventListener('click', function(){
+    if(subhanAllahInitialValue === 33){
+        return alert('Subhan Allah complete. Please fillup another one')
+    }
+    subhanAllahInitialValue++;
+    item1Display.innerText = subhanAllahInitialValue;
+})
