@@ -85,4 +85,7 @@ reset.addEventListener('click', function(){
     item1Display.innerText = 0;
     item2Display.innerText = 0;
     item3Display.innerText = 0;
+    subhanAllahInitialValue = 0;
+    AlhamdulillahInitialValue = 0;
+    AllahuakberInitialValue = 0;
 })
