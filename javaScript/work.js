@@ -30,3 +30,16 @@ item1Increment.addEventListener('click', function(){
     subhanAllahInitialValue++;
     item1Display.innerText = subhanAllahInitialValue;
 })
+
+// subhanAllah decrement
+item1decrement.addEventListener('click', function(){
+    if(subhanAllahInitialValue === 0){
+        return alert('You can not added nagetive value')
+    }
+
+    subhanAllahInitialValue--;
+    item1Display.innerText = subhanAllahInitialValue;
+
+})
+
+
